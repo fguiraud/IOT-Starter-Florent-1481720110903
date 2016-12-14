@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-Starter-Florent
+  host: IOT-Starter-Florent
+  disk_quota: 1024M
+  services:
+  - IOT-Starter-Florent-cloudantNoSQLDB
+  - IOT-Starter-Florent-iotf-service
